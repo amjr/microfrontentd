@@ -1,2 +1,5 @@
-import products from "products/ProductsIndex";
-import cart from "cart/CartIndex";
+import { mountProducts } from "products/ProductsIndex";
+import { mountCart } from "cart/CartIndex";
+
+mountProducts(document.querySelector("#products"));
+mountCart(document.querySelector("#cart"));
